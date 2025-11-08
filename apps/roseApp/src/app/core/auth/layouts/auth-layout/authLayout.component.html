@@ -1,0 +1,26 @@
+<section class="grid grid-cols-1 md:grid-cols-2 ">
+    <div
+        class="flex flex-col text-start justify-center items-center mt-10 me-10 md:mt-0 md:me-0 w-[406px] md:w-[65%] justify-self-center ">
+
+        <a class="cursor-pointer font-zain text-zinc-700  text-end self-end  inline-block ">العربية</a>
+
+        <div class="mt-10 mb-10">
+        <app-marron-seperator></app-marron-seperator>
+        </div>
+
+
+
+        <div class="self-start w-full">
+            <router-outlet></router-outlet>
+        </div>
+
+
+        <div class="rotate-180 mt-10">
+            <app-marron-seperator></app-marron-seperator>
+        </div>
+
+    </div>
+    <div class="hidden md:block">
+        <app-auth-side-bar></app-auth-side-bar>
+    </div>
+</section>
